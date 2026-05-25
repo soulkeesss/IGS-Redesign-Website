@@ -55,9 +55,9 @@ export const alumniList = [
 ];
 
 export const bahasaAsing = [
-  { id: 1, bahasa: 'Bahasa Inggris', guru: 'Sarah Johnson', deskripsi: 'Program intensif untuk kemahiran berbahasa Inggris akademik dan komunikasi.', foto: 'images/teachers/english.jpg' },
-  { id: 2, bahasa: 'Bahasa Mandarin', guru: 'Li Wei Chen', deskripsi: 'Mempelajari bahasa Mandarin dengan fokus pada percakapan dan tulisan.', foto: 'images/teachers/chinese.jpg' },
-  { id: 3, bahasa: 'Bahasa Jepang', guru: 'Takumi Sato', deskripsi: 'Program bahasa Jepang dari dasar hingga mahir dengan sertifikasi JLPT.', foto: 'images/teachers/japanese.jpg' },
+  { id: 1, bahasa: 'Bahasa Inggris', guru: 'Sir Bilal', deskripsi: 'Program intensif untuk kemahiran berbahasa Inggris akademik dan komunikasi.', foto: 'images/teachers/english.jpg' },
+  { id: 2, bahasa: 'Bahasa Indonesia', guru: 'Ms Ara', deskripsi: 'Mempelajari bahasa Mandarin dengan fokus pada percakapan dan tulisan.', foto: 'images/teachers/chinese.jpg' },
+  { id: 3, bahasa: 'Bahasa Jepang', guru: 'Sensei Tamara', deskripsi: 'Program bahasa Jepang dari dasar hingga mahir dengan sertifikasi JLPT.', foto: 'images/teachers/japanese.jpg' },
 ];
 
 export const yayasan = {
