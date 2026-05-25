@@ -7,25 +7,25 @@ const menuItems = [
   {
     label: 'Menu',
     children: [
-      { label: 'Karyawan', path: '#/karyawan' },
-      { label: 'Staff', path: '#/staff' },
-      { label: 'Siswa', path: '#/siswa' },
-      { label: 'OSIS SMP & SMA', path: '#/osis' },
-      { label: 'Alumni', path: '#/alumni' },
+      { label: 'Karyawan', path: '/karyawan' },
+      { label: 'Staff', path: '/staff' },
+      { label: 'Siswa', path: '/siswa' },
+      { label: 'OSIS SMP & SMA', path: '/osis' },
+      { label: 'Alumni', path: '/alumni' },
     ],
   },
-  { label: 'Karier', path: '#/karier' },
+  { label: 'Karier', path: '/karier' },
   { label: 'Moodle', path: 'https://moodle.igs.my.id', external: true },
   {
     label: 'PPDB',
     children: [
-      { label: 'Daftar', path: '#/ppdb' },
-      { label: 'Cek Kelulusan', path: '#/ppdb' },
+      { label: 'Daftar', path: '/ppdb' },
+      { label: 'Cek Kelulusan', path: '/ppdb' },
     ],
   },
-  { label: 'Administrasi', path: '#/administrasi' },
-  { label: 'Profil', path: '#/profil' },
-  { label: 'Berita', path: '#/berita' },
+  { label: 'Administrasi', path: '/administrasi' },
+  { label: 'Profil', path: '/profil' },
+  { label: 'Berita', path: '/berita' },
 ];
 
 export default function Navbar() {
@@ -107,7 +107,7 @@ export default function Navbar() {
                           {item.children.map((child) => (
                             <Link
                               key={child.path || child.label}
-                              to={child.path || '#'}
+                              to={child.path || '/'}
                               className={`block px-4 py-3 text-sm transition-colors hover:bg-red-600/20 hover:text-blue-300 ${
                                 isActive(child.path) ? 'text-blue-400 bg-red-600/10' : 'text-white/70'
                               }`}
@@ -121,7 +121,7 @@ export default function Navbar() {
                   </>
                 ) : (
                   <Link
-                    to={item.path || '#'}
+                    to={item.path || '/'}
                     className={`px-4 py-2 text-sm font-medium transition-colors rounded-lg ${
                       isActive(item.path)
                         ? 'text-blue-400 bg-red-600/10'
@@ -186,7 +186,7 @@ export default function Navbar() {
                             {item.children.map((child) => (
                               <Link
                                 key={child.path || child.label}
-                                to={child.path || '#'}
+                                to={child.path || '/'}
                                 className={`block px-4 py-2 text-sm rounded-lg transition-colors ${
                                   isActive(child.path) ? 'text-blue-400 bg-red-600/10' : 'text-white/60 hover:text-blue-300'
                                 }`}
@@ -200,7 +200,7 @@ export default function Navbar() {
                     </>
                   ) : (
                     <Link
-                      to={item.path || '#'}
+                      to={item.path || '/'}
                       className={`block px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
                         isActive(item.path)
                           ? 'text-blue-400 bg-red-600/10'
