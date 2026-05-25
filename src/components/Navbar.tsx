@@ -7,25 +7,25 @@ const menuItems = [
   {
     label: 'Menu',
     children: [
-      { label: 'Karyawan', path: '/karyawan' },
-      { label: 'Staff', path: '/staff' },
-      { label: 'Siswa', path: '/siswa' },
-      { label: 'OSIS SMP & SMA', path: '/osis' },
-      { label: 'Alumni', path: '/alumni' },
+      { label: 'Karyawan', path: '#/karyawan' },
+      { label: 'Staff', path: '#/staff' },
+      { label: 'Siswa', path: '#/siswa' },
+      { label: 'OSIS SMP & SMA', path: '#/osis' },
+      { label: 'Alumni', path: '#/alumni' },
     ],
   },
-  { label: 'Karier', path: '/karier' },
+  { label: 'Karier', path: '#/karier' },
   { label: 'Moodle', path: 'https://moodle.igs.my.id', external: true },
   {
     label: 'PPDB',
     children: [
-      { label: 'Daftar', path: '/ppdb' },
-      { label: 'Cek Kelulusan', path: '/ppdb' },
+      { label: 'Daftar', path: '#/ppdb' },
+      { label: 'Cek Kelulusan', path: '#/ppdb' },
     ],
   },
-  { label: 'Administrasi', path: '/administrasi' },
-  { label: 'Profil', path: '/profil' },
-  { label: 'Berita', path: '/berita' },
+  { label: 'Administrasi', path: '#/administrasi' },
+  { label: 'Profil', path: '#/profil' },
+  { label: 'Berita', path: '#/berita' },
 ];
 
 export default function Navbar() {
