@@ -69,8 +69,8 @@ export const yayasan = {
 
 export const profilSekolah = {
   pembuat: 'Bapak Ignatius Djony, S.T. - Pendiri sekaligus Ketua Yayasan yang memiliki visi pendidikan berkelas dunia.',
-  kepalaSekolah: 'Ms. Dwi Priyani SPd.Gr. - Kepala Sekolah dengan pengalaman 25 tahun di dunia pendidikan.',
-  wakilKepala: 'Sri Hartati, S.Pd., M.Pd. - Wakil Kepala Sekolah Bidang Akademik dan Kesiswaan.',
+  kepalaSekolah: 'Ms. Dwi Priyani S.Pd, Gr. - Kepala Sekolah Sekolah Menengah Pertama.',
+  wakilKepala: 'Ms Dina Ulya, S.Pd., M.Pd. - Kepala Sekolah Sekolah Menengah Atas.',
   sejarah: 
   `
 

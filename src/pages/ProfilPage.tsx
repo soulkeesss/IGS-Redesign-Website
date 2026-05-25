@@ -34,7 +34,7 @@ export default function ProfilPage() {
             {[
               { icon: Users, label: 'Pendiri', value: profilSekolah.pembuat },
               { icon: Target, label: 'Kepala Sekolah', value: profilSekolah.kepalaSekolah },
-              { icon: Award, label: 'Wakil Kepala Sekolah', value: profilSekolah.wakilKepala },
+              { icon: Award, label: 'Kepala Sekolah', value: profilSekolah.wakilKepala },
             ].map((item, index) => (
               <motion.div
                 key={index}
