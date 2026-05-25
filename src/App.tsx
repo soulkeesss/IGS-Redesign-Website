@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -16,25 +16,27 @@ import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <ScrollToTop />
-      <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/karyawan" element={<KaryawanPage />} />
-          <Route path="/staff" element={<StaffPage />} />
-          <Route path="/siswa" element={<SiswaPage />} />
-          <Route path="/osis" element={<OSISPage />} />
-          <Route path="/alumni" element={<AlumniPage />} />
-          <Route path="/karier" element={<KarierPage />} />
-          <Route path="/ppdb" element={<PPDBPage />} />
-          <Route path="/administrasi" element={<AdministrasiPage />} />
-          <Route path="/profil" element={<ProfilPage />} />
-          <Route path="/berita" element={<BeritaPage />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-black text-white">
+        <ScrollToTop />
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/karyawan" element={<KaryawanPage />} />
+            <Route path="/staff" element={<StaffPage />} />
+            <Route path="/siswa" element={<SiswaPage />} />
+            <Route path="/osis" element={<OSISPage />} />
+            <Route path="/alumni" element={<AlumniPage />} />
+            <Route path="/karier" element={<KarierPage />} />
+            <Route path="/ppdb" element={<PPDBPage />} />
+            <Route path="/administrasi" element={<AdministrasiPage />} />
+            <Route path="/profil" element={<ProfilPage />} />
+            <Route path="/berita" element={<BeritaPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   )
 }
