@@ -92,21 +92,21 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
-                <span className="text-white/50 text-sm">info@igs.sch.id</span>
+                <span className="text-white/50 text-sm">highschool.igs@gmail.com</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
-                <span className="text-white/50 text-sm">Jl. Pendidikan No. 123, Jakarta Selatan</span>
+                <span className="text-white/50 text-sm">Jl. Mayor Ruslan, Sumatera Selatan, Palembang </span>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
-                <span className="text-white/50 text-sm">(021) 1234-5678</span>
+                <span className="text-white/50 text-sm">(0711)377159</span>
               </div>
               <div className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
                 <div className="text-white/50 text-sm">
-                  <p>Senin - Jumat: 07.00 - 16.00</p>
-                  <p>Sabtu: 07.00 - 12.00</p>
+                  <p>Senin - Jumat: 05.00 - 18.00</p>
+                  <p>Sabtu: 05.00 - 20.00</p>
                 </div>
               </div>
             </div>
